@@ -30,6 +30,26 @@ function App() {
           <li>Salen alertas de rendimiento en la consola</li>
         </ul>
       </ul>
+      <a>
+      <h3>
+        <a href="https://es.reactjs.org/docs/hooks-reference.html#usecallback"
+        target="_blank"
+        rel="noreferrer">
+        </a>
+        UseCallback
+      </h3>
+      </a>
+      <ul>
+        <li>
+          Memoriza una función, para no volverla a definir en cada render.
+        </li>
+        <li>
+          Úsalo siempre que se pase una función como <b>prop</b> a un componente memorizado
+        </li>
+        <li>
+          Úsalo siempre que se pase una función como parámetro de un efecto
+        </li>
+      </ul>
       <hr/>
       <Contador/>
       <hr/>
